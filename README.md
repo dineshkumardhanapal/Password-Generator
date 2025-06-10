@@ -1,6 +1,8 @@
 Password Generator
 This is a simple, responsive, and secure password generator built with HTML, CSS (Tailwind CSS), and Vanilla JavaScript. It allows users to create strong, customizable passwords by selecting desired length and character types.
 
+Live Demo - https://password-generator-by-dk.netlify.app/
+
 Features
 Customizable Length: Generate passwords from 4 to 32 characters long.
 
