@@ -58,4 +58,4 @@ Contributing
 Feel free to fork this repository, make improvements, and submit pull requests.
 
 License
-This project is open-source and available under the GLU License
+This project is open-source and available under the GPL License
