@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Custom styles to enhance responsiveness and visual appeal */
+html, body {
+    /* Ensure html and body take up full viewport height and handle box model consistently */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Light grey fallback */
+}
+
+/* Ensure the main container flex items are centered */
+.flex.items-center.justify-center {
+    height: auto; /* Make sure this container is at least viewport height */
+}
+
+/* Custom range slider styling for better visual consistency */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00bdbf; /* purple-700 */
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s ease-in-out;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #6D28D9; /* purple-700 */
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s ease-in-out;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 4px rgba(129, 90, 213, 0.5); /* purple-500 with opacity */
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 4px rgba(129, 90, 213, 0.5); /* purple-500 with opacity */
+}
