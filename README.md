@@ -56,3 +56,6 @@ Copy Password: Click the "Copy" button next to the password display to copy the 
 
 Contributing
 Feel free to fork this repository, make improvements, and submit pull requests.
+
+License
+This project is open-source and available under the GLU License
